@@ -16,6 +16,7 @@
 
     <!-- Theme CSS -->
     <link href="css/clean-blog.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -42,7 +43,11 @@
                     <span class="sr-only">Toggle navigation</span>
                     Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand" href="index.html">ӃAPastor</a>
+                <img src="https://avatars.githubusercontent.com/u/5565006?v=3" class="img-circle" alt="Kyle Pastor" style="position:relative;top:10px"width="40px" height="40px">
+                <a class="navbar-brand" href="index.html">
+                  ӃAPastor
+                </a>
+
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -83,6 +88,26 @@
                         <h1>ӃAPastor</h1>
                         <hr class="small">
                         <span class="subheading">Analytics | Development | Web</span>
+                        <hr class="small">
+
+                        <ul class="list-inline text-center">
+                            <li>
+                                <a href="http://stackoverflow.com/users/2593298/kyle-pastor">
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+                                        <i class="fa fa-stack-exchange fa-stack-1x "></i>
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/KAPastor">
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+                                        <i class="fa fa-github fa-stack-1x "></i>
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -91,6 +116,16 @@
 
     <!-- Main Content -->
     <div class="container">
+      <div class="calendar">
+          <img src="https://assets-cdn.github.com/images/spinners/octocat-spinner-128.gif" class="spinner"/>
+          <p class="spinner-text monospace">Crunching <a href="https://github.com/KAPastor">@KAPastor</a>'s contributions just for you.</p>
+      </div>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/es6-promise/3.0.2/es6-promise.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fetch/0.10.1/fetch.min.js"></script>
+      <script src="css/github-calendar.min.js"></script>
+      <script src="js/main.js"></script>
+      <hr>
+
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 <div class="post-preview">
@@ -189,33 +224,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                    <ul class="list-inline text-center">
-                        <li>
-                            <a href="#">
-                                <span class="fa-stack fa-lg">
-                                    <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-                                </span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <span class="fa-stack fa-lg">
-                                    <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-                                </span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <span class="fa-stack fa-lg">
-                                    <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-                                </span>
-                            </a>
-                        </li>
-                    </ul>
-                    <p class="copyright text-muted">Copyright &copy; Your Website 2016</p>
+                    <p class="copyright text-muted">Copyright &copy; KAPastor 2016</p>
                 </div>
             </div>
         </div>
